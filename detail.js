@@ -65,11 +65,11 @@ function aggiungiNuovoProdotto (prodotto) {
     //cre il bottone di modifica e lo appendo 
     const changeButton = document.createElement("button")
     changeButton.classList.add("btn",  "btn-warning");
-    divContainer.appendChild(changeButton);
+    //divContainer.appendChild(changeButton);
     changeButton.innerText = "Modifica";
     
     //cre il bottone di elimina e lo appendo 
-    const deleteButton = document.createElement("button")
+    /*const deleteButton = document.createElement("button")
     deleteButton.classList.add("btn",  "btn-danger");
     divContainer.appendChild(deleteButton);
     deleteButton.innerText = "Elimina";
@@ -77,7 +77,7 @@ function aggiungiNuovoProdotto (prodotto) {
         const idSend = prodotto._id;
         inviaElimina(idSend);
         
-    })
+    })*/
 
 
     changeButton.addEventListener("click", function(event) {
